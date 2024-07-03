@@ -1,1 +1,7 @@
-<
+<div class="fullpage">
+  <div class="content">
+    <app-analog-clock></app-analog-clock>
+    <h1>{{ currentTime | date: 'hh:mm:ss a' }}</h1>
+    <h2>{{ todayDate | date: 'fullDate' }}</h2>
+  </div>
+</div>
